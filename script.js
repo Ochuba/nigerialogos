@@ -134,7 +134,7 @@ function alright(){
 
     function calculatepercentage(){
 
-     let percen = (totalCorrect / totalQuestions) * 100;
+     let percen = Math.floor((totalCorrect / totalQuestions) * 100);
     //  console.log(totalCorrect);
       //console.log(totalQuestions);
       
