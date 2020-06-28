@@ -31,8 +31,8 @@ body{
 .options{
     display: flex;
     flex-direction: column;
-    background-color: ;
-    width: 100%;
+    background-color: var(--stalk);
+   width: 100%;
     align-items: center;
 }
 
