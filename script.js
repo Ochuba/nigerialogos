@@ -1,6 +1,6 @@
 let imgMain = document.getElementById("image");
 let optionOne = document.querySelectorAll(".option");
-let percentage = document.querySelector('.percentage_pass');
+let percentage = document.querySelector('.pass-rate');
 let nextButton = document.querySelector('.next');
 let percentageGotten = 100;
 let totalQuestions = 1;
@@ -139,7 +139,7 @@ function alright(){
       //console.log(totalQuestions);
       
       
-     percentage.innerHTML = `${percen}%`;
+     percentage.innerHTML = `You Got ${totalCorrect} out of ${totalQuestions} Correct!`;
     }
 
 
